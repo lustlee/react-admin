@@ -61,7 +61,7 @@ const Users = () => {
         fetch('http://localhost:8800/api/users').then(
             (res) => res.json(),
         ),
-  })
+  });
 
   return <div className="users">
     <div className="info">
